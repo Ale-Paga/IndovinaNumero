@@ -105,6 +105,12 @@ public class FXMLController {
     	
     }
 
+    public void setModel(Model model) {
+    	this.model=model;
+    }
+    
+    
+    
     @FXML // This method is called by the FXMLLoader when initialization is complete
     void initialize() {
         assert btnNuovaPartita != null : "fx:id=\"btnNuovaPartita\" was not injected: check your FXML file 'Scene.fxml'.";
@@ -113,5 +119,6 @@ public class FXMLController {
         assert btnProva != null : "fx:id=\"btnProva\" was not injected: check your FXML file 'Scene.fxml'.";
         assert txtRisultato != null : "fx:id=\"txtRisultato\" was not injected: check your FXML file 'Scene.fxml'.";
 
+        
     }
 }
