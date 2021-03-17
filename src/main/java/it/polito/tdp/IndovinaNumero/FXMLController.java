@@ -6,6 +6,8 @@ package it.polito.tdp.IndovinaNumero;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+
+import it.polito.tdp.IndovinaNumero.model.Model;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -14,6 +16,8 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.HBox;
 
 public class FXMLController {
+	
+	private Model model;
 
 	private final int NMAX = 100;
 	private final int TMAX = 8;
